@@ -1,0 +1,896 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/hero\ img.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+
+.section1 .navs{
+    background-color: #333;
+    height: 8vh;
+   width: 100%;
+   position:fixed;
+   z-index: 99;
+   
+   
+  
+}
+
+.section1 .navs .nav{
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.section1 .navs .nav .a {
+    text-decoration: none;
+    color: rgb(23, 23, 24);
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+   
+}
+
+
+.section1 .nav .b {
+
+    position: absolute;
+    left: 20px;
+    font-family:  "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  
+  
+   
+   
+   
+
+}
+
+
+.section1 .nav a {
+
+    text-decoration: none;
+   color: aliceblue;
+    font-family:  "Roboto", sans-serif;
+ 
+   
+   
+
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.section1 .header{
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 18%;
+}
+
+
+.section1 .header  h3{
+  
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+}
+
+.section1 .header  h1{
+  
+    color: aliceblue;
+    color:  #ff305b;
+    margin-bottom: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 55px;
+    
+    
+}
+
+.section1 .header  p{
+  
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+.about{
+    font-family: "Rubik", sans-serif;
+    width: 75%;
+    margin: 40px auto;
+    padding: 40px 0;
+    
+   
+}
+
+.about-right{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+    padding: 0 30px;
+   
+   
+}
+.about-right  .about-top-element{
+    margin-bottom: 20px;
+}
+.about-right  .about-top-element h1{
+    font-family: "Libre Franklin", sans-serif;
+    font-size:32px;
+    color: #333;
+
+}
+
+.about-right  .about-top-element span{
+   color: #ff305b;
+}
+
+.about-right  .about-middel-element{
+    margin-bottom: 10px;
+    color: #555;
+  
+}
+
+.about-right  .about-bottom-element{
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.about-right  .about-bottom-element .about-bottom-element-left{
+    float: left;
+    
+}
+
+.about-right  .about-bottom-element .about-bottom-element-left p{
+    margin-bottom: 20px;
+    color: #555;
+
+}
+
+.about-right  .about-bottom-element .about-bottom-element-left span{
+    font-weight: 500;
+    color: black;
+   
+
+}
+
+
+.about-right  .about-bottom-element .about-bottom-element-right{
+    float: left;
+    margin-left: 50px;
+}
+
+.about-right  .about-bottom-element .about-bottom-element-right p{
+    margin-bottom: 20px;
+    color: #555;
+
+}
+
+.about-right  .about-bottom-element .about-bottom-element-right span{
+    font-weight: 500;
+    color: black;
+
+}
+
+
+.about-right  .about-buttons .btn1{
+   
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    color: aliceblue;
+   font-family: "Rubik", sans-serif;
+   font-size: 18px;
+   border: none;
+   background-color: #ff305b;
+   vertical-align: middle;
+  
+   
+}
+
+.about-right  .about-buttons .btn2{
+    margin-left: 10px;
+    width:110px ;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    border: none;
+  
+}
+
+
+
+
+.about-right  .about-buttons a{ 
+    color: aliceblue;
+   
+}
+
+.about-right  .about-buttons .fa-sharp {
+ 
+    color: aliceblue;  
+}
+
+
+
+.about-left{
+    float: left;
+    width: 30%;
+    height: 55vh;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: solid 8px #555 ;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 8px;
+   
+    
+  
+}
+
+
+.about-left .img{
+    width: 60%;
+    padding-left: 40px;
+    position: absolute;
+    bottom: -45px;
+    left: -20px;
+   
+   
+ 
+}
+
+
+.about-left img{
+    border-radius: 8px;
+}
+
+.about .about-left  .footer-icons{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    position: absolute;
+    width: 105%;
+    height: 440px;
+   opacity: 0;
+    bottom: -45px;
+    left: 20px;
+    
+    transition-property: hight , opacity ;
+   
+
+    
+ 
+}
+
+.about .about-left .footer-icons:hover{
+    opacity: 1;
+    height: 440px;
+    transform: translate y (300px);
+
+}
+
+.about .about-left  .footer-icons .icons-layer{
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    color: #f1f1f1;
+
+}
+
+.about .about-left  .footer-icons .fa-brands{
+    width: 30px;
+    font-size: 22px;
+   
+}
+
+
+
+
+
+
+
+
+
+.services{
+    background-color:#f1f1f1;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+   
+    
+    
+}
+
+.services .our-service {
+    width: 15%;
+   margin: auto;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Libre Franklin", sans-serif;
+    border: 2px solid #ff305b ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+   
+}
+
+
+
+.services .container-one{
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+
+.services .service{
+    width: 24%;
+    float: left;
+    text-align: center;
+    margin: 50px 0 ;
+    margin-left: 11px;
+    padding: 50px 0;
+    border-radius: 3px;
+    transition-duration: 0.2s ;
+
+}
+
+.service:hover{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+ 
+}
+
+.service .fa-solid:hover{
+    font-size: 35px;
+}
+
+
+.service .fa-solid {
+    width: 60px;
+    height: 60px;
+    color: #ff305b;
+    font-size: 30px;
+   
+}
+
+
+
+.services .service h3{
+    font-family: "Montserrat", sans-serif;
+}
+.services .service p{
+    margin-top: 20px;
+}
+/*
+hr{
+    width: 180px;
+    height: 1px;
+    background-color:#ff305b;
+   margin:auto;
+   position: relative;
+ 
+}
+
+hr::before{
+    content: " ";
+    width:100px;
+    height: 100px;
+   
+    background-color: #ff305b;
+    position: absolute;
+}
+*/
+
+
+
+.profile{
+   
+    padding: 40px 0;
+
+}
+
+.our-profile{
+
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: #333;
+    font-family: "Libre Franklin", sans-serif;
+    padding-bottom: 20px;
+    width: 15%;
+    margin: auto;
+     border: 2px solid #ff305b ;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+}
+.profile .select{
+    padding: 30px 0;
+   width: 25%;
+   margin: auto;
+   
+}
+.profile .select p{
+    float: left;
+    text-align: center;
+    color: #333;
+    font-family: "Libre Franklin", sans-serif;
+   margin-left: 20px;
+}
+.profile .container-two{
+    
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container-two .sub-container {
+    width: 31%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    
+   
+}
+
+
+.container-two .sub-container .sub-container-img{
+ 
+    
+}
+
+.container-two .sub-container .layer-icon{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    width:100% ;
+    height: 35vh;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition-duration: 0.5s;
+    
+    
+    
+}
+
+
+.container-two .sub-container .layer-icon .fa-regular{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ff305b;
+    
+   
+  
+}
+
+.container-two .sub-container .layer-icon:hover{
+  
+   opacity: 1;
+
+}
+
+
+
+
+
+.container-two .sub-container .sub-container-img  img {
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.numbers{
+    background-color:#f1f1f1;
+    margin: 50px 0;
+    padding: 40px 0;
+}
+
+.numbers .container-three{
+    width: 75%;
+    margin: auto;
+    padding: 50px 0;
+   
+}
+
+.numbers .container-three .num{
+    width: 20%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+   
+
+
+}
+
+.num .fa-solid{
+    width: 50px;
+    height: 50px;
+    color: #ff305b;
+    font-size: 30px;
+}
+
+.num h3{
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.num p{
+    
+    font-family: "Rubik", sans-serif;
+    color: #333;
+
+}
+
+
+
+
+
+
+
+
+
+.feedback{
+ 
+    margin: 50px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.feedback .our-feedback{
+    padding: 20px 0;
+    margin-top: 30px;
+   margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+    font-family: "Libre Franklin", sans-serif;
+    width: 18%;
+    margin: auto;
+     border: 2px solid #ff305b ;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+
+}
+
+
+.feedback .container-four{
+    background: rgb(255,48,91);
+    background: linear-gradient(135deg, rgba(255,48,91,1) 0%, rgba(255,48,91,1) 19%, rgba(241,241,241,1) 19%);
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 5px;  
+    margin-top: 30px;
+
+}
+
+
+
+.feedback .container-four .left{
+    width: 15%;
+   float: left;
+   margin-left: 50px;
+   margin-top: 10px;
+   
+    
+}
+
+.feedback .container-four .left img{
+    border-radius: 50%;
+    width:100% ;
+    
+}
+
+
+.feedback .container-four .right{
+  
+   width: 75%;
+   float: left;
+   padding-left: 20px;
+   padding-bottom: 30px;
+     
+}
+
+.feedback .container-four .right h3{
+
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+
+}
+
+.feedback .container-four .right h4{
+    font-family: "Rubik", sans-serif;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+.feedback .container-four .right h4 .fa-solid{
+    margin-right: 5px;
+}
+
+.feedback .container-four .right p{
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 15px;
+
+}
+
+.I .fa-solid {
+    font-size: 15px;
+    color: gold;
+
+}
+
+.I .fa-regular{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+.blogs{
+    background-color: #f1f1f1;
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.blogs .our-blog{
+   
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    padding-bottom: 20px;
+    width: 10%;
+    margin: auto;
+     border: 2px solid #ff305b ;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+}
+
+.blogs .container-five {
+    width: 75%;
+    margin: auto;
+   margin-top: 50px;
+   padding: 50px;
+ 
+    
+}
+
+.blogs .container-five .two p {
+    margin-top: 15px;
+
+}
+
+.blogs .container-five .blog{
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    padding-bottom: 40px;
+}
+
+.blogs .container-five .blog img{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.blogs .container-five .blog h3{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.blogs .container-five .blog p{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: "Rubik", sans-serif;
+    color: #555;
+   
+
+}
+.blogs .container-five .blog a{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: "Rubik", sans-serif;
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.contact{
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+
+.contact .contact-us{
+    text-align: center;
+    margin: 30px 0;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+}
+
+.contact .container-six{
+    width: 55%;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+.contact .container-six form{
+    margin: 40px 0;
+  
+}
+
+.contact .container-six form .top{
+    margin-bottom: 20px;
+
+}
+
+.contact .container-six form .input-three{
+    width: 770px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: #555;
+    color: #555;
+    padding-left: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-family: "Rubik", sans-serif;
+    
+
+}
+.contact .container-six form .top input{
+    width: 370px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: #555;
+    color: #555;
+    padding-left: 10px;
+    margin-left: 25px;
+    font-family: "Rubik", sans-serif;
+   
+    
+
+}
+.contact .container-six form textarea{
+    width: 770px;
+    border-radius: 5px;
+    border: solid #555 1px;
+    color: #555;
+    margin-left: 25px;
+    padding-top: 20px; 
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 20px;
+    
+   
+
+}
+.contact .container-six form .submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    color: aliceblue;
+   font-family: "Rubik", sans-serif;
+   font-size: 16px;
+   margin-left: 25px;
+   border: none;
+   background-color: #ff305b;
+   
+
+}
+
+
+
+
+
+
+.footer{
+    background-color:#333;
+    padding: 50px 0;
+
+}
+
+
+.footer .container-seven{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.footer .footer-icons{
+    
+    font-size: 20px;
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 10px;
+  
+}
+
+.footer .footer-icons .fa-brands{  
+    margin-left: 10px;
+  
+}
+
+.footer .container-seven p{
+    color: #f1f1f1;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    
+}
+
+.footer .container-seven span a {
+   color: #ff305b;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
